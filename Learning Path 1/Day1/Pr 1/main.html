@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning Day One</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <h2 id="name">Name</h2>
+            <h2 id="age">Age</h2>
+            <h2 id="city">City</h2>
+        </div>
+
+        <!--Idea 1 <button onclick="showUserData()">Show User Profile</button> -->
+        <!-- Call function using showUserData(), when function is outside of the obj -->
+
+        <!-- Idea 2: To call function that is inside the object, we have to write the obj name then dot notation with the function name with is the key.. normally we write user.name: user here is the obj name and name is the key -->
+        <button onclick="user.showUserData()">Show User Profile</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
